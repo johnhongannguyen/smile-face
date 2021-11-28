@@ -1,6 +1,6 @@
 # # Creating a smile face by creating pixel dot 
 
-![This is a demo image](simle-face-img.png)
+![This is a demo image](./simle-face-img.png)
 
 
 ## Description 

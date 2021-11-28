@@ -10,9 +10,9 @@ This is a TypeScript practice so that I am able to take advantages of TypeScript
 ## Do it by yourself 
 - git clone https://github.com/johnhongannguyen/portfolio-official.git
 - install Node js 
-- install TypeScript ( npm install -g typescript)
-- run tsc (compile into JS file and fix error if applicable)
-- run node index.js
+- install TypeScript ( `npm install -g typescript`)
+- run `tsc` (compile into JS file and fix error if applicable)
+- run `node index.js`
 
 
 

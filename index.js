@@ -29,13 +29,15 @@ function drawDot(x, y) {
         imageData[y * imageWidth + x] = true;
     }
 }
-function drawHorizontalLine(x, y, width) {
-    for (let i = 0; i < imageData.length; i++) {
+// drawing horizontal line func
+function drawHorizontalLine(x, y, length) {
+    for (let i = 0; i < length; i++) {
         drawDot(x + i, y);
     }
 }
-function drawVerticalLine(x, y, width) {
-    for (let i = 0; i < imageData.length; i++) {
+// draw vertical line func
+function drawVerticalLine(x, y, length) {
+    for (let i = 0; i < length; i++) {
         drawDot(x, y + i);
     }
 }

@@ -39,14 +39,14 @@ function drawDot(x:number,y:number){
 
 }
 // drawing horizontal line func
-function drawHorizontalLine(x:number, y:number, width:number){
-  for(let i = 0 ; i < imageData.length; i++ ){
+function drawHorizontalLine(x:number, y:number, length:number){
+  for(let i = 0 ; i < length; i++ ){
     drawDot(x + i, y);
   }
 }
 // draw vertical line func
-function drawVerticalLine(x:number, y:number, width:number){
-  for( let i =0 ; i < imageData.length; i++ ){
+function drawVerticalLine(x:number, y:number, length:number){
+  for( let i =0 ; i < length; i++ ){
     drawDot(x, y + i);
   }
 }

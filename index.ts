@@ -14,7 +14,9 @@ drawHorizontalLine(4, 5, 12);
 drawDot(15, 4);
 
 // output what we drew to the console
-outputImage();
+// output different pixel  by adjust 
+//outputImage("\u2588")
+outputImage("O", "\u2588")
 
 function drawRectangle(
   x: number,

@@ -13,7 +13,7 @@ drawDot(4, 4);
 drawHorizontalLine(4, 5, 12);
 drawDot(15, 4);
 // output what we drew to the console
-outputImage();
+outputImage("O", "\u2588");
 function drawRectangle(x, y, width, height) {
     // top
     drawHorizontalLine(x, y, width);
